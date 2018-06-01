@@ -14,7 +14,7 @@ public class Magic8Ball {
 
         System.out.println("Magic 8 Ball Program\n");
 
-        System.out.println("\nPlease enter your question for a answer? Enter 'exit' to quit");
+        System.out.println("\n Please enter your question ? Enter 'exit' to quit");
         question =keyboard.nextLine();
 
         while(!question.equals("exit")) {
@@ -79,5 +79,8 @@ public class Magic8Ball {
 
 
         }
+
+        System.out.println("\n Thank you for Using" );
+
     }
 }
